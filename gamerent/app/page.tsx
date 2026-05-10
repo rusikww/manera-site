@@ -9,32 +9,32 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg',
     badge: 'HOT',
-    online: '12 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
-      '1ч': {
-        price: '39₽',
+      '1ч недоступен': {
+        price: '1.22₽',
         link:
-          'https://funpay.com/lots/offer?id=68858003',
+          'EROR',
       },
 
-      '3ч': {
+      '3ч недоступен': {
         price: '79₽',
         link:
           'https://funpay.com/lots/offer?id=68858019',
       },
 
-      '6ч': {
+      '6ч недоступен': {
         price: '119₽',
         link: '#',
       },
 
-      '12ч': {
+      '12ч недоступен': {
         price: '169₽',
         link: '#',
       },
 
-      '24ч': {
+      '24ч недоступен': {
         price: '249₽',
         link: '#',
       },
@@ -46,32 +46,32 @@ const games = [
     image:
       'https://i.ytimg.com/vi/Emz5ULWN1Ug/maxresdefault.jpg',
     badge: 'NEW',
-    online: '6 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
-      '1ч': {
+      '1ч недоступен': {
         price: '29₽',
         link: '#',
       },
 
       '3ч': {
-        price: '69₽',
-        link: '#',
+        price: '1.81₽',
+        link: 'https://funpay.com/lots/offer?id=68439778',
       },
 
       '6ч': {
-        price: '109₽',
-        link: '#',
+        price: '2.35₽',
+        link: 'https://funpay.com/lots/offer?id=68439813',
       },
 
       '12ч': {
-        price: '159₽',
-        link: '#',
+        price: '3.81₽',
+        link: 'https://funpay.com/lots/offer?id=68439831',
       },
 
       '24ч': {
-        price: '239₽',
-        link: '#',
+        price: '5.29₽',
+        link: 'https://funpay.com/lots/offer?id=68439849',
       },
     },
   },
@@ -81,32 +81,32 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg',
     badge: 'HOT',
-    online: '9 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
-      '1ч': {
-        price: '35₽',
+      '1ч недоступен': {
+        price: '',
         link: '#',
       },
 
       '3ч': {
-        price: '75₽',
-        link: '#',
+        price: '1.38₽',
+        link: 'https://funpay.com/lots/offer?id=68128023',
       },
 
       '6ч': {
-        price: '115₽',
-        link: '#',
+        price: '3.40₽',
+        link: 'https://funpay.com/lots/offer?id=68128130',
       },
 
       '12ч': {
-        price: '165₽',
-        link: '#',
+        price: '5.66₽',
+        link: 'https://funpay.com/lots/offer?id=68128242',
       },
 
       '24ч': {
-        price: '245₽',
-        link: '#',
+        price: '6.79₽',
+        link: 'https://funpay.com/lots/offer?id=68128299',
       },
     },
   },
@@ -116,7 +116,7 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg',
     badge: 'TOP',
-    online: '8 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
@@ -151,32 +151,32 @@ const games = [
     image:
       'https://i.ytimg.com/vi/bgW3BimUYVo/maxresdefault.jpg',
     badge: 'NEW',
-    online: '5 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '19₽',
-        link: '#',
+        price: '1.21₽',
+        link: 'https://funpay.com/lots/offer?id=68825983',
       },
 
       '3ч': {
-        price: '49₽',
-        link: '#',
+        price: '2.41₽',
+        link: 'https://funpay.com/lots/offer?id=68826064',
       },
 
       '6ч': {
-        price: '79₽',
-        link: '#',
+        price: '3.61₽',
+        link: 'https://funpay.com/lots/offer?id=68826118',
       },
 
       '12ч': {
-        price: '129₽',
-        link: '#',
+        price: '4.81₽',
+        link: 'https://funpay.com/lots/offer?id=68826159',
       },
 
       '24ч': {
-        price: '199₽',
-        link: '#',
+        price: '6.68₽',
+        link: 'https://funpay.com/lots/offer?id=68826294',
       },
     },
   },
@@ -186,32 +186,32 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg',
     badge: 'TOP',
-    online: '14 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '25₽',
-        link: '#',
+        price: '1.21₽',
+        link: 'https://funpay.com/lots/offer?id=68797256',
       },
 
       '3ч': {
-        price: '55₽',
-        link: '#',
+        price: '2.64₽',
+        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797327',
       },
 
       '6ч': {
-        price: '95₽',
-        link: '#',
+        price: '4.13₽',
+        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797419',
       },
 
       '12ч': {
-        price: '145₽',
-        link: '#',
+        price: '6.13₽',
+        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797473',
       },
 
       '24ч': {
-        price: '219₽',
-        link: '#',
+        price: '9.61₽',
+        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797510',
       },
     },
   },
@@ -221,32 +221,32 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg',
     badge: 'HOT',
-    online: '11 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '15₽',
-        link: '#',
+        price: '1.12₽',
+        link: 'https://funpay.com/lots/offer?id=68799350',
       },
 
       '3ч': {
-        price: '39₽',
-        link: '#',
+        price: '1.75₽',
+        link: 'https://funpay.com/lots/offer?id=68799393',
       },
 
       '6ч': {
-        price: '69₽',
-        link: '#',
+        price: '4.37₽',
+        link: 'https://funpay.com/lots/offer?id=68799406',
       },
 
       '12ч': {
-        price: '119₽',
-        link: '#',
+        price: '5.49₽',
+        link: 'https://funpay.com/lots/offer?id=68799429',
       },
 
       '24ч': {
-        price: '179₽',
-        link: '#',
+        price: '7.73₽',
+        link: 'https://funpay.com/lots/offer?id=68799451',
       },
     },
   },
@@ -256,32 +256,31 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg',
     badge: 'NEW',
-    online: '4 аккаунта',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '29₽',
-        link: '#',
+        price: '2.41₽',
+        link: 'https://funpay.com/lots/offer?id=68809098',
       },
-
       '3ч': {
-        price: '69₽',
-        link: '#',
+        price: '4.81₽',
+        link: 'https://funpay.com/lots/offer?id=68809112',
       },
 
       '6ч': {
-        price: '109₽',
-        link: '#',
+        price: '9.62₽',
+        link: 'https://funpay.com/lots/offer?id=68809150',
       },
 
       '12ч': {
-        price: '159₽',
-        link: '#',
+        price: '19.23₽',
+        link: 'https://funpay.com/lots/offer?id=68809164',
       },
 
       '24ч': {
-        price: '239₽',
-        link: '#',
+        price: '42.06₽',
+        link: 'https://funpay.com/lots/offer?id=68809196',
       },
     },
   },
@@ -291,32 +290,32 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/284160/header.jpg',
     badge: 'TOP',
-    online: '7 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '29₽',
-        link: '#',
+        price: '1.10₽',
+        link: 'https://funpay.com/lots/offer?id=68858003',
       },
 
       '3ч': {
-        price: '69₽',
-        link: '#',
+        price: '3.30₽',
+        link: 'https://funpay.com/lots/offer?id=68858019',
       },
 
       '6ч': {
-        price: '119₽',
-        link: '#',
+        price: '6.24₽',
+        link: 'https://funpay.com/lots/offer?id=68858030',
       },
 
       '12ч': {
-        price: '179₽',
-        link: '#',
+        price: '12.01₽',
+        link: 'https://funpay.com/lots/offer?id=68858042',
       },
 
       '24ч': {
-        price: '269₽',
-        link: '#',
+        price: '24.20₽',
+        link: 'https://funpay.com/lots/offer?id=68858055',
       },
     },
   },
@@ -326,32 +325,32 @@ const games = [
     image:
       'https://i.ytimg.com/vi/LzmhuvqlQ7o/maxresdefault.jpg',
     badge: 'HOT',
-    online: '5 аккаунтов',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
-        price: '39₽',
-        link: '#',
+        price: '1.10₽',
+        link: 'https://funpay.com/lots/offer?id=68882108',
       },
 
       '3ч': {
-        price: '79₽',
-        link: '#',
+        price: '3.06₽',
+        link: 'https://funpay.com/lots/offer?id=68882236',
       },
 
       '6ч': {
-        price: '129₽',
-        link: '#',
+        price: '5.02₽',
+        link: 'https://funpay.com/lots/offer?id=68882367',
       },
 
       '12ч': {
-        price: '189₽',
-        link: '#',
+        price: '12₽',
+        link: 'https://funpay.com/lots/offer?id=68882671',
       },
 
       '24ч': {
-        price: '279₽',
-        link: '#',
+        price: '22₽',
+        link: 'https://funpay.com/lots/offer?id=68882754',
       },
     },
   },
@@ -405,7 +404,29 @@ export default function Home() {
     useState('')
 
   const [rating, setRating] = useState(5)
+useEffect(() => {
+  loadReviews()
+}, [])
 
+const loadReviews = async () => {
+  const { data, error } = await supabase
+    .from('reviews')
+    .select('*')
+    .order('created_at', { ascending: false })
+
+  if (error) {
+    console.log(error)
+    return
+  }
+
+  const formatted = data.map((item) => ({
+    name: item.username,
+    text: item.message,
+    stars: item.stars || 5,
+  }))
+
+  setReviews(formatted)
+}
   useEffect(() => {
     const checkUser = async () => {
       const {
@@ -481,25 +502,55 @@ export default function Home() {
     window.location.reload()
   }
 
-  const addReview = () => {
-    if (!name || !reviewText) {
-      alert('Заполните поля')
-      return
-    }
+  const addReview = async () => {
+  if (!name || !reviewText) {
+    alert('Заполните поля')
+    return
+  }
 
-    setReviews([
+  // проверка на существующий отзыв
+  const { data: existingReview } = await supabase
+    .from('reviews')
+    .select('*')
+    .eq('username', name)
+    .single()
+
+  if (existingReview) {
+    alert('Вы уже оставляли отзыв')
+    return
+  }
+
+  // добавление нового отзыва
+  const { error } = await supabase
+    .from('reviews')
+    .insert([
       {
-        name,
-        text: reviewText,
+        username: name,
+        message: reviewText,
         stars: rating,
       },
-      ...reviews,
     ])
 
-    setName('')
-    setReviewText('')
-    setRating(5)
+  if (error) {
+    console.log(error)
+    alert('Ошибка сохранения')
+    return
   }
+
+  const newReview = {
+    name,
+    text: reviewText,
+    stars: rating,
+  }
+
+  setReviews([newReview, ...reviews])
+
+  setName('')
+  setReviewText('')
+  setRating(5)
+
+  alert('Отзыв успешно добавлен')
+}
 
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden">
@@ -628,12 +679,11 @@ export default function Home() {
                           })
                         }
                         className={`w-full flex items-center justify-between border rounded-2xl px-5 py-4 transition ${
-                          selected?.game ===
-                            game.title &&
-                          selected?.time === time
-                            ? 'bg-gradient-to-r from-purple-600 to-pink-6git --version00 border-pink-400 scale-[1.02]'
-                            : 'bg-black/40 hover:bg-purple-600/20 border-white/10 hover:border-purple-500'
-                        }`}
+  selected?.game === game.title &&
+  selected?.time === time
+    ? 'bg-gradient-to-r from-purple-600 to-pink-600 border-pink-400 scale-[1.02]'
+    : 'bg-black/40 hover:bg-purple-600/20 border-white/10 hover:border-purple-500'
+}`}
                       >
                         <span className="text-white font-semibold">
                           {time}
@@ -682,6 +732,88 @@ export default function Home() {
         <h2 className="text-5xl font-black mb-12 text-center">
           Отзывы
         </h2>
+
+          {/* Рейтинг */}
+<div className="bg-white/5 border border-white/10 rounded-[40px] p-8 mb-12">
+
+  <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+
+    <div className="text-center md:text-left">
+
+      <div className="text-7xl font-black bg-gradient-to-r from-yellow-300 to-yellow-500 text-transparent bg-clip-text mb-3">
+        {(
+          reviews.reduce(
+            (acc, review) => acc + review.stars,
+            0
+          ) / reviews.length
+        ).toFixed(1)}
+      </div>
+
+      <div className="text-yellow-400 text-3xl mb-3">
+        {'★'.repeat(
+          Math.round(
+            reviews.reduce(
+              (acc, review) =>
+                acc + review.stars,
+              0
+            ) / reviews.length
+          )
+        )}
+      </div>
+
+      <p className="text-white/60 text-lg">
+        Основано на {reviews.length} отзывах
+      </p>
+
+    </div>
+
+    <div className="w-full max-w-xl space-y-4">
+
+      {[5, 4, 3, 2, 1].map((star) => {
+
+        const count = reviews.filter(
+          (r) => r.stars === star
+        ).length
+
+        const percent =
+          reviews.length > 0
+            ? (count / reviews.length) * 100
+            : 0
+
+        return (
+          <div
+            key={star}
+            className="flex items-center gap-4"
+          >
+
+            <div className="w-12 text-lg font-bold">
+              {star}★
+            </div>
+
+            <div className="flex-1 h-4 bg-white/10 rounded-full overflow-hidden">
+
+              <div
+                className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
+                style={{
+                  width: `${percent}%`,
+                }}
+              />
+
+            </div>
+
+            <div className="w-16 text-right text-white/60 font-semibold">
+              {Math.round(percent)}%
+            </div>
+
+          </div>
+        )
+      })}
+
+    </div>
+
+  </div>
+
+</div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
 
@@ -769,6 +901,4 @@ export default function Home() {
       </section>
     </main>
   )
-
-  
 }
