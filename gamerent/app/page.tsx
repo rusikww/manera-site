@@ -630,7 +630,7 @@ export default function Home() {
                           selected?.game ===
                             game.title &&
                           selected?.time === time
-                            ? 'bg-gradient-to-r from-purple-600 to-pink-600 border-pink-400 scale-[1.02]'
+                            ? 'bg-gradient-to-r from-purple-600 to-pink-6git --version00 border-pink-400 scale-[1.02]'
                             : 'bg-black/40 hover:bg-purple-600/20 border-white/10 hover:border-purple-500'
                         }`}
                       >
