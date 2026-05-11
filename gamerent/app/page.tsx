@@ -37,12 +37,12 @@ const games = [
         link: '#',
       },
 
-      '3 дня': {
+      '3 дня недоступен': {
         price: '399₽',
         link: '#',
       },
 
-      '7 дней': {
+      '7 дней недоступен': {
         price: '699₽',
         link: '#',
       },
@@ -235,7 +235,7 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg',
     badge: 'TOP',
-    online: '2 аккаунт',
+    online: '1 аккаунт',
 
     prices: {
       '1ч': {
