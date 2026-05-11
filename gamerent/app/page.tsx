@@ -235,7 +235,7 @@ const games = [
     image:
       'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg',
     badge: 'TOP',
-    online: '1 аккаунт',
+    online: '2 аккаунт',
 
     prices: {
       '1ч': {
