@@ -240,37 +240,37 @@ const games = [
     prices: {
       '1ч': {
         price: '1.20₽',
-        link: 'https://funpay.com/lots/offer?id=68797256',
+        link: 'https://funpay.com/lots/offer?id=68974912',
       },
 
       '3ч': {
         price: '2.64₽',
-        link: 'https://funpay.com/lots/offer?id=68797327',
+        link: 'https://funpay.com/lots/offer?id=68974941',
       },
 
       '6ч': {
         price: '4.13₽',
-        link: 'https://funpay.com/lots/offer?id=68797419',
+        link: 'https://funpay.com/lots/offer?id=68974964',
       },
 
       '12ч': {
         price: '6.68₽',
-        link: 'https://funpay.com/lots/offer?id=68797473',
+        link: 'https://funpay.com/lots/offer?id=68974984',
       },
 
       '24ч': {
         price: '9.61₽',
-        link: 'https://funpay.com/lots/offer?id=68797510',
+        link: 'https://funpay.com/lots/offer?id=68974999',
       },
 
-      '3 дня недоступно': {
+      '3 дня': {
         price: '24.99₽',
-        link: '#',
+        link: 'https://funpay.com/lots/offer?id=68975031',
       },
 
-      '7 дней недоступно': {
+      '7 дней ': {
         price: '59.99₽',
-        link: '#',
+        link: 'https://funpay.com/lots/offer?id=68975058',
       },
     },
   },
