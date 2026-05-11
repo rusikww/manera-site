@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabase'
 
 const games = [
@@ -14,14 +14,12 @@ const games = [
     prices: {
       '1ч недоступен': {
         price: '1.22₽',
-        link:
-          'EROR',
+        link: 'EROR',
       },
 
       '3ч недоступен': {
         price: '79₽',
-        link:
-          'https://funpay.com/lots/offer?id=68858019',
+        link: '',
       },
 
       '6ч недоступен': {
@@ -38,8 +36,63 @@ const games = [
         price: '249₽',
         link: '#',
       },
+
+      '3 дня': {
+        price: '399₽',
+        link: '#',
+      },
+
+      '7 дней': {
+        price: '699₽',
+        link: '#',
+      },
     },
   },
+
+{
+  title: 'Schedule I',
+  image:
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg',
+  badge: 'HOT',
+  online: '1 аккаунт',
+
+  prices: {
+    '1ч': {
+      price: '2.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809098',
+    },
+
+    '3ч': {
+      price: '4.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809112',
+    },
+
+    '6ч': {
+      price: '8.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809150',
+    },
+
+    '12ч': {
+      price: '16.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809164',
+    },
+
+    '24ч': {
+      price: '35.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809196',
+    },
+
+    '3 дня': {
+      price: '35.00₽',
+      link: 'https://funpay.com/lots/offer?id=68809196',
+    },
+
+    '7 дней': {
+      price: '70.00₽',
+      link: 'https://funpay.com/lots/offer?id=68810199',
+    },
+  },
+},
 
   {
     title: 'Mimesis',
@@ -49,29 +102,40 @@ const games = [
     online: '1 аккаунт',
 
     prices: {
-      '1ч недоступен': {
-        price: '29₽',
-        link: '#',
+      '1ч': {
+        price: '1.17₽',
+        link: 'https://funpay.com/lots/offer?id=68439778',
       },
 
       '3ч': {
-        price: '1.81₽',
+        price: '1.69₽',
         link: 'https://funpay.com/lots/offer?id=68439778',
       },
 
       '6ч': {
-        price: '2.35₽',
+        price: '3.81₽',
         link: 'https://funpay.com/lots/offer?id=68439813',
       },
 
       '12ч': {
-        price: '3.81₽',
+        price: '5.28₽',
         link: 'https://funpay.com/lots/offer?id=68439831',
       },
 
       '24ч': {
-        price: '5.29₽',
+        price: '9.37₽',
         link: 'https://funpay.com/lots/offer?id=68439849',
+      },
+
+      '3 дня': {
+        price: '23.42₽',
+        link: 'https://funpay.com/lots/offer?id=68943508',
+      },
+      
+
+      '7 дней': {
+        price: '66.75₽',
+        link: 'https://funpay.com/lots/offer?id=68943521',
       },
     },
   },
@@ -84,29 +148,39 @@ const games = [
     online: '1 аккаунт',
 
     prices: {
-      '1ч недоступен': {
-        price: '',
-        link: '#',
+      '1ч': {
+        price: '1.13₽',
+        link: 'https://funpay.com/lots/offer?id=68128023',
       },
 
       '3ч': {
-        price: '1.38₽',
+        price: '1.63₽',
         link: 'https://funpay.com/lots/offer?id=68128023',
       },
 
       '6ч': {
-        price: '3.40₽',
+        price: '3.39₽',
         link: 'https://funpay.com/lots/offer?id=68128130',
       },
 
       '12ч': {
-        price: '5.66₽',
+        price: '6.78₽',
         link: 'https://funpay.com/lots/offer?id=68128242',
       },
 
       '24ч': {
-        price: '6.79₽',
+        price: '13.56₽',
         link: 'https://funpay.com/lots/offer?id=68128299',
+      },
+
+      '3 дня': {
+        price: '33.91₽',
+        link: 'https://funpay.com/lots/offer?id=68943785',
+      },
+
+      '7 дней': {
+        price: '63.30₽',
+        link: 'https://funpay.com/lots/offer?id=68943815',
       },
     },
   },
@@ -120,63 +194,38 @@ const games = [
 
     prices: {
       '1ч': {
-        price: '25₽',
-        link: '#',
+        price: '1.10₽',
+        link: 'https://funpay.com/lots/offer?id=68486106',
       },
 
       '3ч': {
-        price: '59₽',
-        link: '#',
+        price: '1.46₽',
+        link: 'https://funpay.com/lots/offer?id=68486137',
       },
 
       '6ч': {
-        price: '99₽',
-        link: '#',
+        price: '3.78₽',
+        link: 'https://funpay.com/lots/offer?id=68486156',
       },
 
       '12ч': {
-        price: '149₽',
-        link: '#',
+        price: '5.50₽',
+        link: 'https://funpay.com/lots/offer?id=68486174',
       },
 
       '24ч': {
-        price: '229₽',
-        link: '#',
-      },
-    },
-  },
-
-  {
-    title: 'YAPYAP',
-    image:
-      'https://i.ytimg.com/vi/bgW3BimUYVo/maxresdefault.jpg',
-    badge: 'NEW',
-    online: '1 аккаунт',
-
-    prices: {
-      '1ч': {
-        price: '1.21₽',
-        link: 'https://funpay.com/lots/offer?id=68825983',
+        price: '11.00₽',
+        link: 'https://funpay.com/lots/offer?id=68942391',
       },
 
-      '3ч': {
-        price: '2.41₽',
-        link: 'https://funpay.com/lots/offer?id=68826064',
+      '3 дня': {
+        price: '32.99₽',
+        link: 'https://funpay.com/lots/offer?id=68942632',
       },
 
-      '6ч': {
-        price: '3.61₽',
-        link: 'https://funpay.com/lots/offer?id=68826118',
-      },
-
-      '12ч': {
-        price: '4.81₽',
-        link: 'https://funpay.com/lots/offer?id=68826159',
-      },
-
-      '24ч': {
-        price: '6.68₽',
-        link: 'https://funpay.com/lots/offer?id=68826294',
+      '7 дней': {
+        price: '76.99₽',
+        link: 'https://funpay.com/lots/offer?id=68942684',
       },
     },
   },
@@ -190,28 +239,38 @@ const games = [
 
     prices: {
       '1ч': {
-        price: '1.21₽',
+        price: '1.20₽',
         link: 'https://funpay.com/lots/offer?id=68797256',
       },
 
       '3ч': {
         price: '2.64₽',
-        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797327',
+        link: 'https://funpay.com/lots/offer?id=68797327',
       },
 
       '6ч': {
         price: '4.13₽',
-        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797419',
+        link: 'https://funpay.com/lots/offer?id=68797419',
       },
 
       '12ч': {
-        price: '6.13₽',
-        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797473',
+        price: '6.68₽',
+        link: 'https://funpay.com/lots/offer?id=68797473',
       },
 
       '24ч': {
         price: '9.61₽',
-        link: 'https://funpay.com/lots/offerEdit?node=89&offer=68797510',
+        link: 'https://funpay.com/lots/offer?id=68797510',
+      },
+
+      '3 дня недоступно': {
+        price: '24.99₽',
+        link: '#',
+      },
+
+      '7 дней недоступно': {
+        price: '59.99₽',
+        link: '#',
       },
     },
   },
@@ -248,39 +307,15 @@ const games = [
         price: '7.73₽',
         link: 'https://funpay.com/lots/offer?id=68799451',
       },
-    },
-  },
 
-  {
-    title: 'Schedule I',
-    image:
-      'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg',
-    badge: 'NEW',
-    online: '1 аккаунт',
-
-    prices: {
-      '1ч': {
-        price: '2.41₽',
-        link: 'https://funpay.com/lots/offer?id=68809098',
-      },
-      '3ч': {
-        price: '4.81₽',
-        link: 'https://funpay.com/lots/offer?id=68809112',
+      '3 дня': {
+        price: '21.28₽',
+        link: 'https://funpay.com/lots/offer?id=68944465',
       },
 
-      '6ч': {
-        price: '9.62₽',
-        link: 'https://funpay.com/lots/offer?id=68809150',
-      },
-
-      '12ч': {
-        price: '19.23₽',
-        link: 'https://funpay.com/lots/offer?id=68809164',
-      },
-
-      '24ч': {
-        price: '42.06₽',
-        link: 'https://funpay.com/lots/offer?id=68809196',
+      '7 дней': {
+        price: '56.01₽',
+        link: 'https://funpay.com/lots/offer?id=68944499',
       },
     },
   },
@@ -304,18 +339,28 @@ const games = [
       },
 
       '6ч': {
-        price: '6.24₽',
+        price: '6.22₽',
         link: 'https://funpay.com/lots/offer?id=68858030',
       },
 
       '12ч': {
-        price: '12.01₽',
+        price: '12.00₽',
         link: 'https://funpay.com/lots/offer?id=68858042',
       },
 
       '24ч': {
         price: '24.20₽',
         link: 'https://funpay.com/lots/offer?id=68858055',
+      },
+
+      '3 дня': {
+        price: '39.59₽',
+        link: 'https://funpay.com/lots/offer?id=68858085',
+      },
+
+      '7 дней': {
+        price: '98.98₽',
+        link: 'https://funpay.com/lots/offer?id=68858104',
       },
     },
   },
@@ -334,23 +379,33 @@ const games = [
       },
 
       '3ч': {
-        price: '3.06₽',
+        price: '1.46₽',
         link: 'https://funpay.com/lots/offer?id=68882236',
       },
 
       '6ч': {
-        price: '5.02₽',
+        price: '3.00₽',
         link: 'https://funpay.com/lots/offer?id=68882367',
       },
 
       '12ч': {
-        price: '12₽',
+        price: '6.00₽',
         link: 'https://funpay.com/lots/offer?id=68882671',
       },
 
       '24ч': {
-        price: '22₽',
+        price: '12.01₽',
         link: 'https://funpay.com/lots/offer?id=68882754',
+      },
+
+      '3 дня': {
+        price: '36.03₽',
+        link: 'https://funpay.com/lots/offer?id=68944696',
+      },
+
+      '7 дней': {
+        price: '60.49₽',
+        link: 'https://funpay.com/lots/offer?id=68944714',
       },
     },
   },
@@ -385,27 +440,74 @@ export default function Home() {
   const [currentUser, setCurrentUser] =
     useState('')
 
-  const [reviews, setReviews] = useState([
-    {
-      name: 'Артём',
-      text: 'Аккаунт пришёл моментально.',
-      stars: 5,
-    },
+  const [reviews, setReviews] = useState<{
+  name: string
+  text: string
+  stars: number
+}[]>([])
 
-    {
-      name: 'Максим',
-      text: 'Очень красивые цены и сайт.',
-      stars: 5,
-    },
-  ])
-
-  const [name, setName] = useState('')
   const [reviewText, setReviewText] =
     useState('')
 
   const [rating, setRating] = useState(5)
+const [availableLots, setAvailableLots] = useState<{
+  [key: string]: boolean | null
+}>({})
+
+
 useEffect(() => {
   loadReviews()
+}, [])
+
+useEffect(() => {
+  // Чтение из localStorage при загрузке
+  const savedLots = localStorage.getItem('availableLots')
+  if (savedLots) {
+    setAvailableLots(JSON.parse(savedLots))
+  }
+
+  const checkLots = async () => {
+    for (const game of games) {
+      for (const [time, data] of Object.entries(game.prices)) {
+        const key = `${game.title}-${time}`
+
+        // Если лот явно недоступен
+        if (!data.link || data.link === '#') {
+          setAvailableLots(prev => {
+            const newState = { ...prev, [key]: false }
+            localStorage.setItem('availableLots', JSON.stringify(newState))
+            return newState
+          })
+          continue
+        }
+
+        // Пауза, чтобы не бить сервер одновременно
+        await new Promise(r => setTimeout(r, 700))
+
+        try {
+          const res = await fetch(`/api/check-lot?url=${encodeURIComponent(data.link)}`)
+          const json = await res.json()
+
+          // Проверяем только если fetch успешный
+          const available = res.ok && json.available === true
+
+          setAvailableLots(prev => {
+            const newState = { ...prev, [key]: available }
+            localStorage.setItem('availableLots', JSON.stringify(newState))
+            return newState
+          })
+        } catch {
+          setAvailableLots(prev => {
+            const newState = { ...prev, [key]: false }
+            localStorage.setItem('availableLots', JSON.stringify(newState))
+            return newState
+          })
+        }
+      }
+    }
+  }
+
+  checkLots()
 }, [])
 
 const loadReviews = async () => {
@@ -427,72 +529,87 @@ const loadReviews = async () => {
 
   setReviews(formatted)
 }
-  useEffect(() => {
-    const checkUser = async () => {
-      const {
-        data: { session },
-      } = await supabase.auth.getSession()
+ const refreshUser = async () => {
+  const { data: { session } } = await supabase.auth.getSession()
 
-      if (session?.user) {
-        setIsRegistered(true)
+  if (session?.user) {
+    const confirmed = !!session.user.email_confirmed_at
+    setIsRegistered(confirmed)
+    setCurrentUser(confirmed ? session.user.user_metadata.username : '')
+  } else {
+    setIsRegistered(false)
+    setCurrentUser('')
+  }
+}
 
-        setCurrentUser(
-          session.user.user_metadata.username
-        )
-      }
-    }
+useEffect(() => {
+  refreshUser() // проверка сразу при загрузке
 
-    checkUser()
-  }, [])
+  const interval = setInterval(refreshUser, 5000) // каждые 5 секунд проверка
+  return () => clearInterval(interval)
+}, [])
 
-  const register = async () => {
-    if (
-      !username ||
-      !email ||
-      !registerPassword
-    ) {
-      alert('Заполните поля')
-      return
-    }
+ const register = async () => {
+  if (
+    !username ||
+    !email ||
+    !registerPassword
+  ) {
+    alert('Заполните поля')
+    return
+  }
 
-    const { error } = await supabase.auth.signUp({
-      email,
-      password: registerPassword,
+  const { error } = await supabase.auth.signUp({
+    email,
+    password: registerPassword,
 
-      options: {
-        data: {
-          username,
-        },
+    options: {
+      data: {
+        username,
       },
+    },
+  })
+
+  if (error) {
+  if (error.message.includes('rate limit')) {
+    alert(
+      'Слишком много попыток. Подождите пару минут.'
+    )
+  } else {
+    alert(error.message)
+  }
+
+  return
+}
+
+  alert(
+    'На вашу почту отправлено письмо для подтверждения аккаунта'
+  )
+}
+  const login = async () => {
+  if (!loginEmail || !loginPassword) {
+    alert('Заполните поля')
+    return
+  }
+
+  const { data, error } =
+    await supabase.auth.signInWithPassword({
+      email: loginEmail,
+      password: loginPassword,
     })
 
-    if (error) {
-      alert(error.message)
-      return
-    }
-
-    alert('Регистрация успешна')
+  if (error) {
+    alert(error.message)
+    return
   }
 
-  const login = async () => {
-    if (!loginEmail || !loginPassword) {
-      alert('Заполните поля')
-      return
-    }
-
-    const { error } =
-      await supabase.auth.signInWithPassword({
-        email: loginEmail,
-        password: loginPassword,
-      })
-
-    if (error) {
-      alert(error.message)
-      return
-    }
-
-    window.location.reload()
+  if (!data.user.email_confirmed_at) {
+    alert('Подтвердите почту')
+    return
   }
+
+  window.location.reload()
+}
 
   const logout = async () => {
     await supabase.auth.signOut()
@@ -502,17 +619,30 @@ const loadReviews = async () => {
     window.location.reload()
   }
 
-  const addReview = async () => {
-  if (!name || !reviewText) {
-    alert('Заполните поля')
+ const addReview = async () => {
+  // проверка авторизации
+  if (!isRegistered) {
+    alert('Войдите в аккаунт')
     return
   }
 
-  // проверка на существующий отзыв
+  // проверка username
+  if (!currentUser) {
+    alert('Заполните имя в аккаунте')
+    return
+  }
+
+  // проверка текста
+  if (!reviewText.trim()) {
+    alert('Напишите отзыв')
+    return
+  }
+
+  // проверка: оставлял ли уже отзыв
   const { data: existingReview } = await supabase
     .from('reviews')
     .select('*')
-    .eq('username', name)
+    .eq('username', currentUser)
     .single()
 
   if (existingReview) {
@@ -520,12 +650,12 @@ const loadReviews = async () => {
     return
   }
 
-  // добавление нового отзыва
+  // добавление отзыва
   const { error } = await supabase
     .from('reviews')
     .insert([
       {
-        username: name,
+        username: currentUser,
         message: reviewText,
         stars: rating,
       },
@@ -538,18 +668,17 @@ const loadReviews = async () => {
   }
 
   const newReview = {
-    name,
+    name: currentUser,
     text: reviewText,
     stars: rating,
   }
 
   setReviews([newReview, ...reviews])
 
-  setName('')
   setReviewText('')
   setRating(5)
 
-  alert('Отзыв успешно добавлен')
+  alert('Отзыв добавлен')
 }
 
   return (
@@ -563,169 +692,160 @@ const loadReviews = async () => {
         <div className="absolute bottom-[-200px] right-[-150px] w-[600px] h-[600px] bg-pink-600 rounded-full blur-[200px] opacity-20" />
       </div>
 
-      <header className="sticky top-0 z-50 backdrop-blur-2xl border-b border-white/10 bg-black/30">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+     <header className="fixed top-0 left-0 w-full z-50 border-b border-white/10 bg-black/80 backdrop-blur-xl">
+  <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
-          <h1 className="text-4xl font-black bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
-            MANERA
-          </h1>
+    <h1 className="text-4xl font-black bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
+      MANERA
+    </h1>
 
-          <div className="flex gap-4 items-center">
+    <div className="flex gap-4 items-center">
 
-            {isRegistered && (
-              <div className="bg-black/40 border border-white/10 px-5 py-3 rounded-2xl font-bold">
-                👤 {currentUser}
-              </div>
-            )}
-
-            {!isRegistered ? (
-  <div className="flex gap-3">
-
-    <a
-      href="/login"
-      className="bg-white/10 px-6 py-3 rounded-2xl font-bold hover:bg-white/20 transition"
-    >
-      Войти
-    </a>
-
-    <a
-      href="/register"
-      className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-3 rounded-2xl font-bold hover:scale-105 transition"
-    >
-      Регистрация
-    </a>
-
-  </div>
-) : (
-              <button
-                onClick={logout}
-                className="bg-red-600 px-6 py-3 rounded-2xl font-bold hover:bg-red-500 transition"
-              >
-                Выйти
-              </button>
-            )}
-
-          </div>
+      {isRegistered && (
+        <div className="bg-black/40 border border-white/10 px-5 py-3 rounded-2xl font-bold">
+          👤 {currentUser || ''}
         </div>
-      </header>
+      )}
 
-      <section className="max-w-7xl mx-auto px-6 pt-24 pb-24 text-center">
+      {!isRegistered ? (
+        <div className="flex gap-3">
+          <a href="/login" className="bg-white/10 px-6 py-3 rounded-2xl font-bold hover:bg-white/20 transition">
+            Войти
+          </a>
+          <a href="/register" className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-3 rounded-2xl font-bold hover:scale-105 transition">
+            Регистрация
+          </a>
+        </div>
+      ) : (
+        <button
+          onClick={logout}
+          className="bg-red-600 px-6 py-3 rounded-2xl font-bold hover:bg-red-500 transition"
+        >
+          Выйти
+        </button>
+      )}
 
-        <h1 className="text-6xl md:text-8xl font-black leading-[0.9] mb-8">
-          Аренда
-          <br />
+   {/* Новая кнопка пожертвования */}
+<a
+  href="/donate"
+  className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-yellow-400 to-orange-500 hover:scale-110 text-black px-6 py-4 rounded-full font-black shadow-2xl transition"
+>
+  💖 Поддержать
+</a>
+    </div>
+  </div>
+</header>
 
-          <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-purple-300 text-transparent bg-clip-text">
-            Steam
-          </span>
 
-          <br />
-          аккаунтов
-        </h1>
+      <section className="max-w-7xl mx-auto px-6 pt-24 pb-24 text-center overflow-hidden">
 
-        <p className="text-xl text-white/60 leading-relaxed max-w-2xl mx-auto">
-          Играй в топовые игры без покупки
-        </p>
+  <h1 className="text-4xl sm:text-5xl md:text-7xl xl:text-8xl font-black leading-tight md:leading-[0.9] mb-8 break-words">
+    Аренда
+    <br />
 
-      </section>
+    <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-purple-300 text-transparent bg-clip-text">
+      Steam
+    </span>
+
+    <br />
+    аккаунтов
+  </h1>
+
+  <p className="text-lg md:text-xl text-white/60 leading-relaxed max-w-2xl mx-auto">
+    Играй в топовые игры без покупки
+  </p>
+
+</section>
 
       <section className="max-w-7xl mx-auto px-6 pb-28">
-
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-
-          {games.map((game) => (
-            <div
-              key={game.title}
-              className="group bg-white/5 border border-white/10 rounded-[36px] overflow-hidden backdrop-blur-2xl hover:border-purple-500/40 hover:scale-[1.02] transition duration-500 shadow-2xl"
-            >
-
-              <div className="relative overflow-hidden">
-
-                <img
-                  src={game.image}
-                  alt={game.title}
-                  className="h-72 w-full object-cover group-hover:scale-110 transition duration-700"
-                />
-
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-
-                <div className="absolute top-5 left-5 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-2xl font-black shadow-xl">
-                  {game.badge}
-                </div>
-
-                <div className="absolute bottom-5 left-5 bg-black/50 backdrop-blur-xl px-4 py-2 rounded-2xl border border-white/10 text-sm font-bold">
-                  {game.online}
-                </div>
-              </div>
-
-              <div className="p-7">
-
-                <h3 className="text-4xl font-black mb-7 leading-tight">
-                  {game.title}
-                </h3>
-
-                <div className="space-y-3 mb-8">
-
-                  {Object.entries(game.prices).map(
-                    ([time, data]) => (
-                      <button
-                        key={time}
-                        onClick={() =>
-                          setSelected({
-                            game: game.title,
-                            time,
-                            price: data.price,
-                            link: data.link,
-                          })
-                        }
-                        className={`w-full flex items-center justify-between border rounded-2xl px-5 py-4 transition ${
-  selected?.game === game.title &&
-  selected?.time === time
-    ? 'bg-gradient-to-r from-purple-600 to-pink-600 border-pink-400 scale-[1.02]'
-    : 'bg-black/40 hover:bg-purple-600/20 border-white/10 hover:border-purple-500'
-}`}
-                      >
-                        <span className="text-white font-semibold">
-                          {time}
-                        </span>
-
-                        <span className="text-white text-xl font-black">
-                          {data.price}
-                        </span>
-                      </button>
-                    )
-                  )}
-
-                </div>
-
-                <button
-                  disabled={
-                    selected?.game !== game.title
-                  }
-                  onClick={() => {
-                    if (!selected) return
-
-                    window.open(
-                      selected.link,
-                      '_blank'
-                    )
-                  }}
-                  className={`w-full py-5 rounded-3xl text-xl font-black transition shadow-2xl ${
-                    selected?.game ===
-                    game.title
-                      ? 'bg-gradient-to-r from-purple-600 to-pink-600 hover:scale-[1.02]'
-                      : 'bg-gray-700 cursor-not-allowed opacity-50'
-                  }`}
-                >
-                  Купить на FunPay
-                </button>
-
-              </div>
-            </div>
-          ))}
-
+  <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+    {games.map((game) => (
+      <div
+        key={game.title}
+        className="group bg-white/5 border border-white/10 rounded-[36px] overflow-hidden backdrop-blur-2xl hover:border-purple-500/40 hover:scale-[1.02] transition duration-500 shadow-2xl"
+      >
+        <div className="relative overflow-hidden">
+          <img
+            src={game.image}
+            alt={game.title}
+            className="h-72 w-full object-cover group-hover:scale-110 transition duration-700"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+          <div className="absolute top-5 left-5 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-2xl font-black shadow-xl">
+            {game.badge}
+          </div>
+          <div className="absolute bottom-5 left-5 bg-black/50 backdrop-blur-xl px-4 py-2 rounded-2xl border border-white/10 text-sm font-bold">
+            {game.online}
+          </div>
         </div>
-      </section>
+
+        <div className="p-7">
+          <h3 className="text-4xl font-black mb-7 leading-tight">
+            {game.title}
+          </h3>
+
+          <div className="space-y-3 mb-8">
+            {Object.entries(game.prices).map(([time, data]) => (
+              <button
+                key={time}
+                onClick={() => {
+  // Блокируем выбор недоступного лота
+  if (!data.link || data.link === '#' || availableLots[`${game.title}-${time}`] === false) return
+
+  setSelected({
+    game: game.title,
+    time,
+    price: data.price,
+    link: data.link,
+  })
+}}
+                className={`w-full flex items-center justify-between border rounded-2xl px-5 py-4 transition ${
+                  selected?.game === game.title && selected?.time === time
+                    ? 'bg-gradient-to-r from-purple-600 to-pink-600 border-pink-400 scale-[1.02]'
+                    : 'bg-black/40 hover:bg-purple-600/20 border-white/10 hover:border-purple-500'
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                 <span
+  className={`w-3 h-3 rounded-full ${
+    availableLots[`${game.title}-${time}`] === true
+      ? 'bg-green-500'
+      : availableLots[`${game.title}-${time}`] === false
+      ? 'bg-red-500'
+      : 'bg-yellow-400'
+  }`}
+/>
+                  <span className="text-white font-semibold">{time}</span>
+                </div>
+                <span className="text-white text-xl font-black">{data.price}</span>
+              </button>
+            ))}
+          </div>
+
+          <button
+        disabled={
+  !selected || 
+  selected.game !== game.title || 
+  !selected.link || 
+  availableLots[`${selected.game}-${selected.time}`] === false
+}
+            onClick={() => {
+              if (!selected || !availableLots[`${selected.game}-${selected.time}`]) return
+              window.open(selected.link, '_blank')
+            }}
+            className={`w-full py-5 rounded-3xl text-xl font-black transition shadow-2xl ${
+              selected?.game === game.title && availableLots[`${game.title}-${selected?.time}`]
+                ? 'bg-gradient-to-r from-purple-600 to-pink-600 hover:scale-[1.02]'
+                : 'bg-gray-700 cursor-not-allowed opacity-50'
+            }`}
+          >
+            Купить на FunPay
+          </button>
+        </div>
+      </div>
+    ))}
+  </div> {/* <- Закрытие контейнера grid */}
+</section>
 
       <section className="max-w-5xl mx-auto px-6 pb-28">
 
@@ -870,25 +990,36 @@ const loadReviews = async () => {
           </div>
 
           <input
-            value={name}
-            onChange={(e) =>
-              setName(e.target.value)
-            }
-            placeholder="Ваше имя"
-            className="w-full bg-black/40 border border-white/10 rounded-3xl px-6 py-5 outline-none mb-6"
-          />
+  value={isRegistered ? currentUser || '' : ''} // вместо просто currentUser
+  placeholder={
+    isRegistered
+      ? 'Вы вошли в аккаунт'
+      : 'Войдите или зарегистрируйтесь'
+  }
+  disabled
+  className={`w-full border border-white/10 rounded-3xl px-6 py-5 outline-none mb-6 ${
+    isRegistered
+      ? 'bg-black/40 text-white'
+      : 'bg-black/20 text-white/40 cursor-not-allowed'
+  }`}
+/>
 
-          <textarea
-            value={reviewText}
-            onChange={(e) =>
-              setReviewText(
-                e.target.value
-              )
-            }
-            placeholder="Напишите отзыв..."
-            rows={5}
-            className="w-full bg-black/40 border border-white/10 rounded-3xl px-6 py-5 outline-none resize-none mb-6"
-          />
+<textarea
+  value={reviewText || ''} // <- исправлено
+  onChange={(e) => setReviewText(e.target.value)}
+  placeholder={
+    isRegistered
+      ? 'Напишите отзыв...'
+      : 'Войдите или зарегистрируйтесь'
+  }
+  rows={5}
+  disabled={!isRegistered}
+  className={`w-full border border-white/10 rounded-3xl px-6 py-5 outline-none resize-none mb-6 ${
+    isRegistered
+      ? 'bg-black/40 text-white'
+      : 'bg-black/20 text-white/40 cursor-not-allowed'
+  }`}
+/>
 
           <button
             onClick={addReview}
